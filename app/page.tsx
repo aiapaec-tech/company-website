@@ -5,6 +5,7 @@ import { Services } from "@/components/services"
 import { WhyChooseUs } from "@/components/why-choose-us"
 import { Contact } from "@/components/contact"
 import { LanguageSwitcher } from "@/components/language-switcher"
+import { LogoParallaxBackground } from "@/components/logo-parallax-background"
 
 export const metadata: Metadata = {
   title: "aiapaec tech - Soluciones de Inteligencia Artificial | AI Solutions",
@@ -33,7 +34,8 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="site-content relative min-h-screen overflow-x-clip snap-y snap-mandatory">
+      <LogoParallaxBackground />
       <LanguageSwitcher />
       <Hero />
       <About />

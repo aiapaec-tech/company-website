@@ -1,10 +1,18 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { Kufam, Unbounded } from "next/font/google"
 import "./globals.css"
 import { LanguageProvider } from "@/contexts/language-context"
 
-const inter = Inter({ subsets: ["latin"] })
+const kufam = Kufam({
+  subsets: ["latin"],
+  variable: "--font-kufam",
+})
+
+const unbounded = Unbounded({
+  subsets: ["latin"],
+  variable: "--font-unbounded",
+})
 
 export const metadata: Metadata = {
   title: "aiapaec tech - Soluciones de Inteligencia Artificial",
@@ -19,7 +27,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={inter.className}>
+      <body className={`${kufam.variable} ${unbounded.variable}`}>
         <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>

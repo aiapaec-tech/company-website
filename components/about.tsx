@@ -8,7 +8,7 @@ export function About() {
   const { t } = useLanguage()
 
   return (
-    <section className="py-20 bg-white">
+    <section className="min-h-screen snap-start flex items-center py-16 md:py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900">{t.about.title}</h2>

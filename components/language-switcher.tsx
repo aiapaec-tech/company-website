@@ -26,6 +26,14 @@ export function LanguageSwitcher() {
         >
           QU
         </Button>
+        <Button
+          variant={language === "en" ? "default" : "ghost"}
+          size="sm"
+          onClick={() => setLanguage("en")}
+          className="text-xs"
+        >
+          EN
+        </Button>
         <Languages className="w-4 h-4 text-gray-600 ml-1" />
       </div>
     </div>

@@ -84,11 +84,22 @@ export const translations = {
         },
       ],
     },
+    privacy: {
+      title: "POLÍTICA DE PRIVACIDAD",
+      intro:
+        "En aiapaec tratamos la información de nuestros usuarios únicamente para la gestión de incidencias y el correcto funcionamiento de nuestras aplicaciones.",
+      consent:
+        "Todo dato personal será utilizado solo con el consentimiento previo, informado y explícito del usuario.",
+      rights:
+        "El usuario puede solicitar en cualquier momento el acceso a toda la información personal que conservamos y requerir su eliminación.",
+      contact:
+        "Para ejercer estos derechos, puedes contactarnos a través de nuestros canales oficiales de atención.",
+    },
     contact: {
       title: "CONTACTO",
-      phone: "+51 940 040 669",
-      email: "HOLA@AIAPAEC.XYZ",
-      address: "JR. PACHACUTEC 1248, LIMA 15072, PERU",
+      phone: "+51 91 444 082",
+      email: "hola@aiapaec.xyz",
+      address: "Jirón Pachacútec 1248, Lima 15072, Perú",
       cta: "Contáctanos hoy",
     },
   },
@@ -167,12 +178,126 @@ export const translations = {
         },
       ],
     },
+    privacy: {
+      title: "PAKASQA WILLAKUY POLITIKAN",
+      intro:
+        "aiapaec nisqapi usuario willakuyninkutaqa llamkaypi sasachakuykunata allichanapaq hinallataq aplicacionkunapa allin puriyninpaqlla llamk'achiyku.",
+      consent:
+        "Sapa personal datoqa usuariopa yachasqa, sut'i y munasqa autorizacionninwanlla llamk'achisqa kanqa.",
+      rights:
+        "Usuarioqa may p'unchawpas waqaychasqa personal willakuynin llapanta mañakuyta atinqa hinaspa chinkachiyta mañakuyta atinqa.",
+      contact: "Kay derechokunata ruraypaqqa, oficial rimanakuy ñanniykuchispi qillqamuy.",
+    },
     contact: {
       title: "RIMANAKUY",
       phone: "+51 940 040 669",
       email: "HOLA@AIAPAEC.XYZ",
       address: "JR. PACHACUTEC 1248, LIMA 15072, PERU",
       cta: "Kunan rimanakuy",
+    },
+  },
+  en: {
+    nav: {
+      about: "About",
+      services: "Services",
+      team: "Team",
+      contact: "Contact",
+    },
+    hero: {
+      title: "ARTIFICIAL INTELLIGENCE",
+      subtitle: "We transform your business potential through intelligent technology",
+      cta: "Contact Us",
+    },
+    about: {
+      title: "ABOUT US",
+      description:
+        "At aiapaec, we transform your business potential through intelligent technology. We specialize in empowering companies through advanced analytics, process simplification, and workflow optimization.",
+      mission:
+        "From Lima, Peru, we drive technological innovation with a clear purpose: contributing to economic development across Latin America.",
+    },
+    services: {
+      title: "OUR SERVICES",
+      subtitle: "Comprehensive technology solutions to accelerate your business",
+      categories: [
+        {
+          title: "ARTIFICIAL INTELLIGENCE CONSULTING",
+          description:
+            "We assess your business needs to identify where AI can generate the greatest impact.",
+          features: [
+            "Process and Needs Assessment",
+            "Custom Strategy Development",
+            "Ongoing Advisory and Support",
+          ],
+        },
+        {
+          title: "WEB DEVELOPMENT",
+          description: "We build modern, responsive websites optimized to convert visitors into customers.",
+          features: [
+            "Progressive Web Applications (PWA)",
+            "E-commerce and Digital Platforms",
+            "SEO and Performance Optimization",
+          ],
+        },
+        {
+          title: "MOBILE APPLICATIONS",
+          description: "We develop native and cross-platform apps that connect your business with users.",
+          features: ["Native iOS and Android Apps", "Cross-Platform Development", "API and Service Integration"],
+        },
+        {
+          title: "AI SOLUTION IMPLEMENTATION",
+          description:
+            "We implement complete AI solutions from concept design to deployment.",
+          features: [
+            "Process Automation",
+            "Machine Learning and Predictive Analytics",
+            "Integration with Existing Systems",
+          ],
+        },
+      ],
+    },
+    whyChooseUs: {
+      title: "WHY CHOOSE US?",
+      description:
+        "We are solution architects, not just developers. We turn data into strategic decisions and problems into business opportunities.",
+      features: [
+        {
+          title: "EXPERIENCE AND EXPERTISE",
+          description:
+            "Our team includes AI and machine learning experts with broad cross-industry experience.",
+        },
+        {
+          title: "CONTINUOUS INNOVATION",
+          description:
+            "We stay ahead of the latest technologies and trends to deliver innovative, effective solutions.",
+        },
+        {
+          title: "CUSTOMIZED SOLUTIONS",
+          description: "We adapt to each client’s specific needs to deliver tailored solutions.",
+        },
+        {
+          title: "COMMITMENT TO SUCCESS",
+          description:
+            "We are committed to our clients’ success, providing continuous support and guidance.",
+        },
+      ],
+    },
+    privacy: {
+      title: "PRIVACY POLICY",
+      intro:
+        "At aiapaec, we process user information only for incident management and proper application operation.",
+      consent:
+        "All personal data is used only with the user’s prior, informed, and explicit consent.",
+      rights:
+        "Users may request access to all personal information we hold and request its deletion at any time.",
+      contact:
+        "To exercise these rights, please contact us through our official support channels.",
+    },
+    contact: {
+      title: "CONTACT",
+      phone: "+51 91 444 082",
+      email: "hola@aiapaec.xyz",
+      address: "Jirón Pachacútec 1248, Lima 15072, Peru",
+      cta: "Contact us today",
     },
   },
 }

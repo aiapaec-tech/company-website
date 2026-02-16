@@ -1,9 +1,10 @@
 {
-  "name": "my-v0-project",
-  "version": "0.1.0",
+  "name": "aiapaec-website",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:site": "next dev -p 3105",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
