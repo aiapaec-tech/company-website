@@ -68,6 +68,11 @@ export function Contact() {
                 Política de Privacidad
               </Link>
             </p>
+            <p className="mt-1">
+              <Link href="/eliminar-datos" className="text-gray-300 hover:text-white underline text-sm">
+                Solicitar eliminación de cuenta y datos
+              </Link>
+            </p>
           </div>
         </div>
       </div>

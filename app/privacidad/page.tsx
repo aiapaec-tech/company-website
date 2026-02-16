@@ -106,6 +106,13 @@ export default function PrivacyPage() {
                 </a>
                 .
               </p>
+              <p className="mt-3">
+                También puede usar nuestro formulario de solicitud en{" "}
+                <Link className="underline hover:text-slate-900" href="/eliminar-datos">
+                  /eliminar-datos
+                </Link>
+                .
+              </p>
             </div>
 
             <div>
