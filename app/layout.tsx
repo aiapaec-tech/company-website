@@ -40,8 +40,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={`${kufam.variable} ${unbounded.variable}`}>
-        <LanguageProvider>{children}</LanguageProvider>
+    <head>
+      <meta name="google-adsense-account" content="ca-pub-1231955294397267"/>
+    </head>
+    <body className={`${kufam.variable} ${unbounded.variable}`}>
+    <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
   )
