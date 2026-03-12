@@ -8,23 +8,25 @@ import { LanguageSwitcher } from "@/components/language-switcher"
 import { LogoParallaxBackground } from "@/components/logo-parallax-background"
 
 export const metadata: Metadata = {
-  title: "aiapaec tech - Soluciones de Inteligencia Artificial | AI Solutions",
+  title: "AIAPAEC | Tecnologia que transforma",
   description:
-    "Transformamos el potencial de tu negocio a través de tecnología inteligente. Especialistas en IA, machine learning y desarrollo de software en Lima, Perú.",
-  keywords: "inteligencia artificial, AI, machine learning, desarrollo software, Lima, Perú, consultoría IA",
-  authors: [{ name: "aiapaec tech" }],
+    "AIAPAEC diseña automatizacion avanzada, sistemas inteligentes a medida y arquitectura digital para empresas que necesitan evolucion operativa.",
+  keywords:
+    "automatizacion avanzada, sistemas inteligentes, arquitectura digital, inteligencia aplicada, Lima, Peru, evolucion operativa",
+  authors: [{ name: "AIAPAEC" }],
   openGraph: {
-    title: "aiapaec tech - Soluciones de Inteligencia Artificial",
-    description: "Transformamos el potencial de tu negocio a través de tecnología inteligente.",
+    title: "AIAPAEC | Arquitectura para la evolucion",
+    description:
+      "Partner tecnologico de evolucion para empresas que necesitan simplificar procesos y construir sistemas a medida.",
     url: "https://www.aiapaec.xyz",
-    siteName: "aiapaec tech",
+    siteName: "AIAPAEC",
     locale: "es_PE",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "aiapaec tech - Soluciones de Inteligencia Artificial",
-    description: "Transformamos el potencial de tu negocio a través de tecnología inteligente.",
+    title: "AIAPAEC | Arquitectura para la evolucion",
+    description: "Tecnologia que transforma procesos en sistemas capaces de evolucionar.",
   },
   robots: {
     index: true,

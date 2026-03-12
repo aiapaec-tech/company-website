@@ -2,37 +2,37 @@
 
 import { useLanguage } from "@/contexts/language-context"
 import { Card, CardContent } from "@/components/ui/card"
-import { Award, Zap, Users, Heart } from "lucide-react"
+import { Compass, Layers3, Scale, ScanSearch } from "lucide-react"
 
 export function WhyChooseUs() {
   const { t } = useLanguage()
-
-  const icons = [Award, Zap, Users, Heart]
+  const icons = [ScanSearch, Layers3, Compass, Scale]
 
   return (
-    <section className="min-h-screen snap-start flex items-center py-16 md:py-20 bg-white">
+    <section className="section-shell flex min-h-screen snap-start items-center py-24 text-white">
       <div className="container mx-auto px-4">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 text-gray-900">{t.whyChooseUs.title}</h2>
+        <div className="mx-auto max-w-6xl">
+          <p className="font-mono-accent text-sm uppercase tracking-[0.28em] text-sky-200/80">{t.whyChooseUs.eyebrow}</p>
+          <h2 className="font-display mt-5 max-w-4xl text-4xl font-bold leading-tight tracking-[-0.04em] md:text-6xl">
+            {t.whyChooseUs.title}
+          </h2>
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">{t.whyChooseUs.description}</p>
 
-          <p className="text-xl text-gray-700 text-center mb-16 max-w-4xl mx-auto leading-relaxed">
-            {t.whyChooseUs.description}
-          </p>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
             {t.whyChooseUs.features.map((feature, index) => {
               const Icon = icons[index]
+
               return (
                 <Card
-                  key={index}
-                  className="text-center shadow-lg hover:shadow-xl transition-shadow duration-300 border-0 bg-gradient-to-b from-gray-50 to-white"
+                  key={feature.title}
+                  className="border-white/10 bg-[linear-gradient(180deg,rgba(19,25,39,0.88),rgba(16,22,36,0.68))] shadow-[0_18px_60px_rgba(2,6,23,0.32)]"
                 >
-                  <CardContent className="p-8">
-                    <div className="mb-6">
-                      <Icon className="w-16 h-16 text-purple-600 mx-auto" />
+                  <CardContent className="p-7">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/5 text-sky-200">
+                      <Icon className="h-5 w-5" />
                     </div>
-                    <h3 className="text-lg font-bold text-gray-900 mb-4">{feature.title}</h3>
-                    <p className="text-gray-700 leading-relaxed">{feature.description}</p>
+                    <h3 className="font-display mt-6 text-xl leading-tight text-white">{feature.title}</h3>
+                    <p className="mt-4 text-base leading-7 text-slate-300">{feature.description}</p>
                   </CardContent>
                 </Card>
               )

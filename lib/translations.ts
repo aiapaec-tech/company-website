@@ -1,303 +1,562 @@
 export const translations = {
   es: {
     nav: {
-      about: "Acerca de",
-      services: "Servicios",
-      team: "Equipo",
+      about: "Arquitectura",
+      services: "Capacidades",
+      team: "Método",
       contact: "Contacto",
     },
     hero: {
-      title: "INTELIGENCIA ARTIFICIAL",
-      subtitle: "Transformamos el potencial de tu negocio a través de tecnología inteligente",
-      cta: "Contáctanos",
+      eyebrow: "Partner tecnológico de evolución",
+      title: "Tecnología que transforma procesos en sistemas capaces de evolucionar.",
+      subtitle:
+        "Diseñamos automatización avanzada, inteligencia aplicada y arquitectura digital a medida para negocios que necesitan adaptarse con criterio.",
+      description:
+        "AIAPAEC replantea operaciones, simplifica flujos complejos y sustituye estructuras obsoletas por sistemas conectados al negocio real.",
+      cta: "Hablar con AIAPAEC",
+      secondaryCta: "Ver capacidades",
+      highlights: [
+        "Arquitectos de automatización avanzada",
+        "Sistemas inteligentes a medida",
+        "Evolución operativa sin humo",
+      ],
     },
     about: {
-      title: "ACERCA DE NOSOTROS",
+      eyebrow: "Arquitectura para la evolución",
+      title: "No vendemos tecnología como adorno. Construimos ventaja operativa.",
       description:
-        "En aiapaec transformamos el potencial de tu negocio a través de tecnología inteligente. Nos especializamos en potenciar empresas mediante análisis avanzado, simplificación de procesos y optimización de flujos de trabajo.",
+        "AIAPAEC actúa como partner tecnológico de evolución para empresas que necesitan rediseñar procesos, automatizar fricciones y ganar capacidad de adaptación.",
       mission:
-        "Desde nuestra sede en Lima, Perú, impulsamos la innovación tecnológica con un propósito claro: contribuir al desarrollo económico de América Latina.",
+        "La inteligencia artificial se integra como herramienta práctica: simplifica lo complejo, automatiza lo repetitivo y libera tiempo para decisiones con más impacto.",
+      cards: [
+        {
+          title: "Diagnóstico operativo",
+          description:
+            "Leemos procesos, dependencias y cuellos de botella antes de proponer tecnología.",
+        },
+        {
+          title: "Arquitectura a medida",
+          description:
+            "Cada sistema se diseña según el contexto del negocio, no desde plantillas genéricas.",
+        },
+        {
+          title: "Capacidad de evolución",
+          description:
+            "La solución queda lista para crecer, integrarse y adaptarse a nuevos escenarios.",
+        },
+      ],
     },
     services: {
-      title: "NUESTROS SERVICIOS",
-      subtitle: "Soluciones tecnológicas integrales para impulsar tu negocio",
+      eyebrow: "Capacidades",
+      title: "Sistemas inteligentes para operaciones reales.",
+      subtitle:
+        "Trabajamos donde la complejidad operativa ya frena crecimiento, visibilidad o capacidad de respuesta.",
       categories: [
         {
-          title: "CONSULTORÍA EN INTELIGENCIA ARTIFICIAL",
+          title: "Arquitectura de automatización",
           description:
-            "Evaluamos las necesidades de tu negocio para encontrar dónde la IA puede generar el mayor impacto.",
+            "Diseñamos flujos automatizados que eliminan tareas manuales, reducen fricción y ordenan la operación.",
           features: [
-            "Análisis de Necesidades y Procesos",
-            "Desarrollo de Estrategias Personalizadas",
-            "Asesoramiento Continuo y Soporte",
+            "Mapeo de procesos críticos",
+            "Orquestación de tareas y reglas",
+            "Automatización conectada con el negocio",
           ],
         },
         {
-          title: "DESARROLLO WEB",
-          description: "Creamos sitios web modernos, responsivos y optimizados para convertir visitantes en clientes.",
+          title: "Sistemas inteligentes a medida",
+          description:
+            "Construimos herramientas con IA aplicada para clasificar, priorizar, asistir y decidir sobre datos reales.",
           features: [
-            "Aplicaciones Web Progresivas (PWA)",
-            "E-commerce y Plataformas Digitales",
-            "Optimización SEO y Performance",
+            "Asistentes operativos internos",
+            "Modelos y reglas para casos específicos",
+            "Capas de inteligencia sobre sistemas existentes",
           ],
         },
         {
-          title: "APLICACIONES MÓVILES",
-          description: "Desarrollamos apps nativas y multiplataforma que conectan tu negocio con tus usuarios.",
-          features: ["Apps iOS y Android Nativas", "Desarrollo Cross-Platform", "Integración con APIs y Servicios"],
+          title: "Integración y evolución de plataformas",
+          description:
+            "Conectamos fuentes, equipos y software disperso para convertir infraestructura fragmentada en un sistema útil.",
+          features: [
+            "Integración entre APIs y servicios",
+            "Migración desde procesos obsoletos",
+            "Trazabilidad y continuidad operativa",
+          ],
         },
         {
-          title: "IMPLEMENTACIÓN DE SOLUCIONES IA",
+          title: "Experiencias digitales conectadas",
           description:
-            "Implementamos soluciones completas de inteligencia artificial desde la conceptualización hasta la puesta en marcha.",
+            "Diseñamos productos web y móviles cuando forman parte de una arquitectura mayor y cumplen una función operativa clara.",
           features: [
-            "Automatización de Procesos",
-            "Machine Learning y Análisis Predictivo",
-            "Integración con Sistemas Existentes",
+            "Portales y aplicaciones conectadas",
+            "Interfaces orientadas a flujo y conversión",
+            "Implementación con foco en rendimiento",
           ],
         },
       ],
     },
     whyChooseUs: {
-      title: "¿POR QUÉ ELEGIRNOS?",
+      eyebrow: "Método",
+      title: "Transformación aplicada, no narrativa de innovación.",
       description:
-        "Somos arquitectos de soluciones, no simples desarrolladores. Transformamos datos en decisiones estratégicas y problemas en oportunidades de negocio.",
+        "Nuestro trabajo combina criterio técnico, lectura estratégica y ejecución sobria para que la tecnología responda a una necesidad concreta.",
       features: [
         {
-          title: "EXPERIENCIA Y CONOCIMIENTO",
+          title: "Pensamiento sistémico",
           description:
-            "Contamos con un equipo de expertos en inteligencia artificial y machine learning con amplia experiencia en diversos sectores.",
+            "Partimos del proceso completo, no solo del punto visible del problema.",
         },
         {
-          title: "INNOVACIÓN CONTINUA",
+          title: "Técnica sin exceso",
           description:
-            "Nos mantenemos a la vanguardia de las últimas tecnologías y tendencias para ofrecer soluciones innovadoras y efectivas.",
+            "Elegimos la arquitectura necesaria y evitamos complejidad ornamental o moda tecnológica.",
         },
         {
-          title: "SOLUCIONES PERSONALIZADAS",
-          description: "Nos adaptamos a las necesidades específicas de cada cliente para ofrecer soluciones a medida.",
+          title: "Diseño para adaptarse",
+          description:
+            "Priorizamos soluciones que puedan evolucionar con cambios operativos y de escala.",
         },
         {
-          title: "COMPROMISO CON EL ÉXITO",
+          title: "Implementación responsable",
           description:
-            "Nos comprometemos con el éxito de nuestros clientes, proporcionando soporte y asesoramiento continuo.",
+            "Trabajamos con trazabilidad, contexto de negocio y claims que se pueden sostener.",
         },
       ],
     },
     privacy: {
-      title: "POLÍTICA DE PRIVACIDAD",
+      title: "Política de Privacidad",
       intro:
-        "En aiapaec tratamos la información de nuestros usuarios únicamente para la gestión de incidencias y el correcto funcionamiento de nuestras aplicaciones.",
+        "En AIAPAEC tratamos la información personal solo cuando es necesaria para operar servicios, responder solicitudes o atender incidencias.",
       consent:
-        "Todo dato personal será utilizado solo con el consentimiento previo, informado y explícito del usuario.",
+        "Todo tratamiento se realiza bajo la base legal aplicable y, cuando corresponde, con consentimiento previo, informado y explícito.",
       rights:
-        "El usuario puede solicitar en cualquier momento el acceso a toda la información personal que conservamos y requerir su eliminación.",
+        "El usuario puede solicitar acceso, rectificación o eliminación de sus datos personales en cualquier momento.",
       contact:
-        "Para ejercer estos derechos, puedes contactarnos a través de nuestros canales oficiales de atención.",
+        "Para ejercer estos derechos, escribe a hola@aiapaec.xyz o utiliza nuestros canales oficiales.",
     },
     contact: {
-      title: "CONTACTO",
+      eyebrow: "Contacto",
+      title: "Conversemos sobre el proceso que hoy ya no escala.",
+      intro:
+        "Si tu operación depende de tareas manuales, sistemas aislados o decisiones lentas, podemos replantear la arquitectura contigo.",
+      labels: {
+        phone: "Teléfono",
+        email: "Email",
+        address: "Base operativa",
+      },
       phone: "+51 91 444 082",
       email: "hola@aiapaec.xyz",
       address: "Jirón Pachacútec 1248, Lima 15072, Perú",
-      cta: "Contáctanos hoy",
+      cta: "Solicitar una conversación",
+      note: "Respondemos con foco técnico y contexto de negocio.",
+      form: {
+        eyebrow: "Brief inicial",
+        title: "Cuéntanos el contexto antes de hablar.",
+        description:
+          "Déjanos una breve descripción del problema, el punto de fricción o el objetivo operativo que quieres resolver.",
+        fields: {
+          name: "Nombre",
+          email: "Correo",
+          company: "Empresa",
+          summary: "Descripción breve",
+        },
+        placeholders: {
+          name: "Tu nombre",
+          email: "tu@empresa.com",
+          company: "Nombre de la empresa",
+          summary: "¿Qué proceso te está frenando hoy y qué impacto tiene?",
+        },
+        cta: "Enviar consulta",
+        submitting: "Enviando",
+        helper: "Leemos cada consulta con criterio técnico y contexto de negocio.",
+        messages: {
+          success: "Gracias. Revisaremos tu caso y te responderemos pronto.",
+          error: "No pudimos enviar el formulario en este momento.",
+        },
+      },
+      schedule: {
+        eyebrow: "15 minutos",
+        title: "Agenda una reunión exploratoria gratuita.",
+        description:
+          "Si prefieres ir directo a la conversación, reserva una llamada breve para revisar el problema y ver si tiene sentido trabajar juntos.",
+        points: [
+          "Revisión rápida del cuello de botella o proceso crítico",
+          "Contexto técnico y de negocio en una sola conversación",
+          "Siguiente paso sugerido, sin compromiso",
+        ],
+        cta: "Agendar por Cal.com",
+        fallback: "Añade NEXT_PUBLIC_CALCOM_URL para mostrar aquí el enlace de agenda.",
+      },
     },
   },
   qu: {
     nav: {
-      about: "Ñuqanchikpaq",
-      services: "Yanapakuykuna",
-      team: "Llamkaq runa",
+      about: "Arquitectura",
+      services: "Atiyniykuna",
+      team: "Metodo",
       contact: "Rimanakuy",
     },
     hero: {
-      title: "YACHAY MAKINA",
-      subtitle: "Negocioykipa atiyninta tikrachiyku yachay makinawan",
-      cta: "Rimanakuy",
+      eyebrow: "Tecnologiawan wiñaypaq yanapaq masi",
+      title: "Tecnologiawan procesokunata tikrayku wiñay atiyniyuq sistemakunaman.",
+      subtitle:
+        "Automatizacion avanzada, inteligencia aplicada, chaymanta negocioyman hina arquitectura digitalta rurayku.",
+      description:
+        "AIAPAECqa operacionkunata musuqmanta yuyarin, sasachakuy flujokunata pisiyachin, machu estructurakunata allin sistemakunawan rantin.",
+      cta: "AIAPAECwan rimay",
+      secondaryCta: "Atiyniykunata qhaway",
+      highlights: [
+        "Automatizacion avanzada arquitectokuna",
+        "Sapanchasqa yachayniyuq sistemakuna",
+        "Mana humoq operacionpa wiñaynin",
+      ],
     },
     about: {
-      title: "ÑUQANCHIKPAQ",
+      eyebrow: "Wiñaypaq arquitectura",
+      title: "Mana adornorayku tecnologiatamachu qokuyku. Operacionpaq allin atiyta rurayku.",
       description:
-        "aiapaec nisqapi negocioykipa atiyninta tikrachiyku yachay makina tecnologiawan. Empresakunata kallpachayku t'aqwiy, sumaq ruway, llamkana allichaywan.",
-      mission: "Lima, Perú llaqtamanta, tecnología innovacionta purichiyku: América Latina wiñachinapaq.",
+        "AIAPAECqa partner tecnologico de evolucion hina llamkan empresakunawan, procesokunata musuqmanta allichanapaq, friccionta automatizanapaq, adaptacionta kallpachaypaq.",
+      mission:
+        "Inteligencia artificialqa kaypi yanapakuy hina churakun: sasata pisiyachin, kutikuy llamkanakunata automatizan, aswan allin yuyayman pacha qowan.",
+      cards: [
+        {
+          title: "Operacionta qhawariy",
+          description: "Procesokuna, dependenciakuna, chinkariykunata ñawpaqta qhawariyku manaraq tecnologia nispa.",
+        },
+        {
+          title: "Sapanchasqa arquitectura",
+          description: "Sapa sistemaqa negocioypa contexto nisqanman hina rurakun, mana plantillamanta.",
+        },
+        {
+          title: "Wiñay atiy",
+          description: "Solucionqa wiñanapaq, huñukunapaq, musuq escenarioyman tikranapaq liston.",
+        },
+      ],
     },
     services: {
-      title: "YANAPAKUYNINCHIK",
-      subtitle: "Negocioykipa wiñananpaq hunt'asqa tecnología solucionkuna",
+      eyebrow: "Atiyniykuna",
+      title: "Cheqaq operacionkunapaq yachayniyuq sistemakuna.",
+      subtitle:
+        "Chaypi llamkayku maypichus complejidad operativa wiñayta, rikuyta utaq kutichiy atiyta hark'an.",
       categories: [
         {
-          title: "YACHAY MAKINA YANAPAYKUY",
-          description: "Negocioykipa necesidadninta qhawariyku maypichus yachay makina aswan allin kananpaq.",
+          title: "Automatizacion arquitectura",
+          description:
+            "Flujokunata diseñayku llamkay makinta qichunapaq, friccionta pisiyachinapaq, operacionta ordenanapaq.",
           features: [
-            "Necesidadkuna Llamkaykuna T'aqwiy",
-            "Sapanchasqa Estrategiakuna Ruray",
-            "Sapa Kuti Yanapaykuy Yanapay",
+            "Critico proceso mapeo",
+            "Tareakuna, reglaskuna orquestacion",
+            "Negociowan t'inkisqa automatizacion",
           ],
         },
         {
-          title: "WEB RURAY",
-          description: "Musuq, responsive web sitiokunata rurayku watiqaqkunata rantiqman tikrananpaq.",
+          title: "Sapanchasqa yachayniyuq sistemakuna",
+          description:
+            "IA aplicadawan herramientakunata rurayku clasificar, priorizar, yanapay, datomanta yuyaypaq.",
           features: [
-            "Web Aplicacionkuna Ñawpaqman Puriq (PWA)",
-            "E-commerce Digital Plataformakuna",
-            "SEO Performance Allinchaykuna",
+            "Ukhu operacion asistente",
+            "Caso especificopaq modelo, reglas",
+            "Kaq sistemakunapi inteligencia capa",
           ],
         },
         {
-          title: "MÓVIL APLICACIONKUNA",
-          description: "Nativo multiplataforma appkunata rurayku negocioykita ruwaqkunawan huñunanpaq.",
-          features: ["iOS Android Nativo Appkuna", "Cross-Platform Ruray", "API Serviciokunawan Huñuy"],
+          title: "Plataformakuna huñuy, wiñachiy",
+          description:
+            "Disperso software, equipokuna, fuentekunata huñuyku fragmentado infraestructura util sistemaman tikranapaq.",
+          features: [
+            "API, serviciokuna huñuy",
+            "Machu procesomanta migracion",
+            "Trazabilidad, operacion continuidad",
+          ],
         },
         {
-          title: "YACHAY MAKINA CHURAY",
-          description: "Yachay makina solucionkunata hunt'ayku qallariyninmanta tukuyninkamaña.",
-          features: ["Llamkay Automatización", "Machine Learning T'aqwiy Willakuy", "Kaq Sistemakuna Huñuy"],
+          title: "T'inkisqa experiencia digital",
+          description:
+            "Web, movil productokunata diseñayku maypichus hatun arquitectura ukhupi cheqaq operacion funcionta hunt'an.",
+          features: [
+            "Portal, aplicacion t'inkisqa",
+            "Flujo, conversionman qhawasqa interfaz",
+            "Rendimientowan implementacion",
+          ],
         },
       ],
     },
     whyChooseUs: {
-      title: "IMARAYKU AKLLAWAYCHIK?",
+      eyebrow: "Metodo",
+      title: "Aplicasqa transformacion, mana sapaq innovacion willakuychu.",
       description:
-        "Solucion ruwaqkuna kayku, mana simple desarrolladorkuna. Datokunamanta decisión estratégicokuna rurayku, sasachakuykunamanta oportunidadkuna.",
+        "Llamkayninikuqa tecnica criterio, estrategia qhaway, sobrio ejecucionta huñun tecnologiaqa cheqaq necesidadman kutichinapaq.",
       features: [
         {
-          title: "EXPERIENCIA YACHAY",
-          description: "Yachay makina especialistakuna tiyanku imaymana sectorkunapi experienciayuq.",
+          title: "Sistema yuyay",
+          description: "Problemapa rikuylla mana, hunt'asqa procesomanta qallariyku.",
         },
         {
-          title: "SAPA KUTI MUSUQYAY",
-          description: "Musuq tecnologiakunapi ñawpaqpi kanchik innovador solucionkunata qunapaq.",
+          title: "Mana excesowan tecnica",
+          description: "Necesaria arquitectura akllayku, moda tecnologica adornota saqeyku.",
         },
         {
-          title: "SAPANCHASQA SOLUCIONKUNA",
-          description: "Sapa clientepa necesidadninman hina solucionkunata rurayku.",
+          title: "Adaptacionpaq diseño",
+          description: "Operacion, escala cambiasqaman wiñay atiyyuq solucionta ñawpaqchaspa.",
         },
         {
-          title: "ALLIN KANANPAQ COMPROMISO",
-          description: "Clientekunapa allin kayninpaq comprometisqa kayku, sapa kuti yanapaspa.",
+          title: "Responsable implementacion",
+          description: "Trazabilidadwan, negocio contexto wan, sustentable claimkunawan llamkayku.",
         },
       ],
     },
     privacy: {
-      title: "PAKASQA WILLAKUY POLITIKAN",
+      title: "Pakasqa Willakuy Politikan",
       intro:
-        "aiapaec nisqapi usuario willakuyninkutaqa llamkaypi sasachakuykunata allichanapaq hinallataq aplicacionkunapa allin puriyninpaqlla llamk'achiyku.",
+        "AIAPAECqa personal willakuyta llamk'achin imapaqchus serviciokuna purichiy, solicitudkunata kutichiy, incidenciakunata atiyninpaqlla.",
       consent:
-        "Sapa personal datoqa usuariopa yachasqa, sut'i y munasqa autorizacionninwanlla llamk'achisqa kanqa.",
+        "Tratamientokunaqa base legal hina rurakun, chaymanta munasqa willasqa autorizacionwan maypichus necesitakun.",
       rights:
-        "Usuarioqa may p'unchawpas waqaychasqa personal willakuynin llapanta mañakuyta atinqa hinaspa chinkachiyta mañakuyta atinqa.",
-      contact: "Kay derechokunata ruraypaqqa, oficial rimanakuy ñanniykuchispi qillqamuy.",
+        "Usuarioqa accesota, rectificacionta utaq personal datonpa chinkachiyta mayllapas mañakuyta atin.",
+      contact:
+        "Kay derechokunata ruwanapaq qillqamuy hola@aiapaec.xyzman utaq oficial ñankunapi.",
     },
     contact: {
-      title: "RIMANAKUY",
-      phone: "+51 940 040 669",
-      email: "HOLA@AIAPAEC.XYZ",
-      address: "JR. PACHACUTEC 1248, LIMA 15072, PERU",
-      cta: "Kunan rimanakuy",
+      eyebrow: "Rimanakuy",
+      title: "Kunan mana escalaq procesomanta rimarisun.",
+      intro:
+        "Operacionniykiqa manual llamkaykunapi, mana huñusqa sistemakunapi utaq pisi utqay yuyaykunapi sayasqa kaptin, qanwan kuska arquitectura musuqmanta rurayku.",
+      labels: {
+        phone: "Telefono",
+        email: "Email",
+        address: "Base operativa",
+      },
+      phone: "+51 91 444 082",
+      email: "hola@aiapaec.xyz",
+      address: "Jiron Pachacutec 1248, Lima 15072, Peru",
+      cta: "Rimanakuyta mañay",
+      note: "Tecnica qhawaywan, negocio contextowan kutichiyku.",
+      form: {
+        eyebrow: "Qallariy willakuy",
+        title: "Manaraq rimashaspayku contexto willaway.",
+        description:
+          "Sasachakuyta, friccionta utaq atiyniyki munasqaykita pisi simipi qillqaykuy.",
+        fields: {
+          name: "Suti",
+          email: "Correo",
+          company: "Empresa",
+          summary: "Pisiylla willakuy",
+        },
+        placeholders: {
+          name: "Sutiyki",
+          email: "qan@empresa.com",
+          company: "Empresayki sutin",
+          summary: "Ima proceso sasachakuchkan kunan? Imaynatan impactan?",
+        },
+        cta: "Contextota apachiy",
+        submitting: "Apachispa",
+        helper: "Sapa solicitudta tecnica qhawaywan negocio contextowan ñawinchayku.",
+        messages: {
+          success: "Sulpayki. Kasuykita qhawarispa utqayta kutichisqayku.",
+          error: "Kunanqa formulario mana apachiyta atirqanchu.",
+        },
+      },
+      schedule: {
+        eyebrow: "15 minutos",
+        title: "Mana qullqiyuq maskhay tinkuyta agenda-y.",
+        description:
+          "Sichus directo rimayta munanki, huk pisi waqyayta reserva-y sasachakuyta qhawarinapaq chaymanta kuska llamkay allinchu manachu yachanapaq.",
+        points: [
+          "Sasachakuq proceso utaq cuello de botella utqay qhaway",
+          "Tecnico hina negocio contextopi huk rimayllapi",
+          "Qatiq paso yuyachiy, mana compromisochu",
+        ],
+        cta: "Cal.compi agenda-y",
+        fallback: "Agenda t'inkita kaypi rikuchinapaq NEXT_PUBLIC_CALCOM_URL yapay.",
+      },
     },
   },
   en: {
     nav: {
-      about: "About",
-      services: "Services",
-      team: "Team",
+      about: "Architecture",
+      services: "Capabilities",
+      team: "Method",
       contact: "Contact",
     },
     hero: {
-      title: "ARTIFICIAL INTELLIGENCE",
-      subtitle: "We transform your business potential through intelligent technology",
-      cta: "Contact Us",
+      eyebrow: "Technology partner for evolution",
+      title: "Technology that turns complex operations into systems that can evolve.",
+      subtitle:
+        "We design advanced automation, applied intelligence and tailored digital architecture for businesses that need to adapt with discipline.",
+      description:
+        "AIAPAEC rethinks operations, simplifies complex flows and replaces obsolete structures with systems connected to real business conditions.",
+      cta: "Talk to AIAPAEC",
+      secondaryCta: "See capabilities",
+      highlights: [
+        "Architects of advanced automation",
+        "Custom intelligent systems",
+        "Operational evolution without hype",
+      ],
     },
     about: {
-      title: "ABOUT US",
+      eyebrow: "Architecture for evolution",
+      title: "We do not sell technology as decoration. We build operational leverage.",
       description:
-        "At aiapaec, we transform your business potential through intelligent technology. We specialize in empowering companies through advanced analytics, process simplification, and workflow optimization.",
+        "AIAPAEC works as a technology partner for evolution for companies that need to redesign processes, automate friction and gain adaptive capacity.",
       mission:
-        "From Lima, Peru, we drive technological innovation with a clear purpose: contributing to economic development across Latin America.",
+        "Artificial intelligence is introduced as a practical tool: it simplifies complexity, automates repetitive work and frees time for higher value decisions.",
+      cards: [
+        {
+          title: "Operational diagnosis",
+          description:
+            "We read processes, dependencies and bottlenecks before recommending any technical layer.",
+        },
+        {
+          title: "Tailored architecture",
+          description:
+            "Every system is designed around business context instead of generic delivery templates.",
+        },
+        {
+          title: "Capacity to evolve",
+          description:
+            "Solutions are prepared to grow, integrate and adapt to new operating scenarios.",
+        },
+      ],
     },
     services: {
-      title: "OUR SERVICES",
-      subtitle: "Comprehensive technology solutions to accelerate your business",
+      eyebrow: "Capabilities",
+      title: "Intelligent systems for real operations.",
+      subtitle:
+        "We work where operational complexity is already slowing growth, visibility or response capacity.",
       categories: [
         {
-          title: "ARTIFICIAL INTELLIGENCE CONSULTING",
+          title: "Automation architecture",
           description:
-            "We assess your business needs to identify where AI can generate the greatest impact.",
+            "We design automated flows that remove manual work, reduce friction and bring structure to operations.",
           features: [
-            "Process and Needs Assessment",
-            "Custom Strategy Development",
-            "Ongoing Advisory and Support",
+            "Critical process mapping",
+            "Task and rule orchestration",
+            "Automation connected to business logic",
           ],
         },
         {
-          title: "WEB DEVELOPMENT",
-          description: "We build modern, responsive websites optimized to convert visitors into customers.",
+          title: "Custom intelligent systems",
+          description:
+            "We build applied AI tools to classify, prioritize, assist and decide on top of real business data.",
           features: [
-            "Progressive Web Applications (PWA)",
-            "E-commerce and Digital Platforms",
-            "SEO and Performance Optimization",
+            "Internal operational assistants",
+            "Models and rules for specific cases",
+            "Intelligence layers over existing systems",
           ],
         },
         {
-          title: "MOBILE APPLICATIONS",
-          description: "We develop native and cross-platform apps that connect your business with users.",
-          features: ["Native iOS and Android Apps", "Cross-Platform Development", "API and Service Integration"],
+          title: "Platform integration and evolution",
+          description:
+            "We connect fragmented software, teams and data sources to turn scattered infrastructure into a useful system.",
+          features: [
+            "API and service integration",
+            "Migration away from obsolete processes",
+            "Traceability and operational continuity",
+          ],
         },
         {
-          title: "AI SOLUTION IMPLEMENTATION",
+          title: "Connected digital experiences",
           description:
-            "We implement complete AI solutions from concept design to deployment.",
+            "We design web and mobile products when they are part of a wider architecture and serve a clear operational role.",
           features: [
-            "Process Automation",
-            "Machine Learning and Predictive Analytics",
-            "Integration with Existing Systems",
+            "Connected portals and applications",
+            "Interfaces built around flow and conversion",
+            "Implementation with performance focus",
           ],
         },
       ],
     },
     whyChooseUs: {
-      title: "WHY CHOOSE US?",
+      eyebrow: "Method",
+      title: "Applied transformation, not innovation theater.",
       description:
-        "We are solution architects, not just developers. We turn data into strategic decisions and problems into business opportunities.",
+        "Our work combines technical judgment, strategic reading and restrained execution so technology answers a concrete business need.",
       features: [
         {
-          title: "EXPERIENCE AND EXPERTISE",
+          title: "Systems thinking",
           description:
-            "Our team includes AI and machine learning experts with broad cross-industry experience.",
+            "We start from the full process, not just from the visible symptom.",
         },
         {
-          title: "CONTINUOUS INNOVATION",
+          title: "Technical restraint",
           description:
-            "We stay ahead of the latest technologies and trends to deliver innovative, effective solutions.",
+            "We choose the architecture that is needed and avoid ornamental complexity or trend chasing.",
         },
         {
-          title: "CUSTOMIZED SOLUTIONS",
-          description: "We adapt to each client’s specific needs to deliver tailored solutions.",
+          title: "Designed to adapt",
+          description:
+            "We prioritize solutions that can evolve with operational and scale changes.",
         },
         {
-          title: "COMMITMENT TO SUCCESS",
+          title: "Responsible implementation",
           description:
-            "We are committed to our clients’ success, providing continuous support and guidance.",
+            "We work with traceability, business context and claims that can be defended.",
         },
       ],
     },
     privacy: {
-      title: "PRIVACY POLICY",
+      title: "Privacy Policy",
       intro:
-        "At aiapaec, we process user information only for incident management and proper application operation.",
+        "At AIAPAEC we process personal information only when it is required to operate services, answer requests or resolve incidents.",
       consent:
-        "All personal data is used only with the user’s prior, informed, and explicit consent.",
+        "All processing is based on the applicable legal basis and, when required, on prior informed consent.",
       rights:
-        "Users may request access to all personal information we hold and request its deletion at any time.",
+        "Users may request access, correction or deletion of their personal data at any time.",
       contact:
-        "To exercise these rights, please contact us through our official support channels.",
+        "To exercise these rights, contact hola@aiapaec.xyz or use our official channels.",
     },
     contact: {
-      title: "CONTACT",
+      eyebrow: "Contact",
+      title: "Let us discuss the process that no longer scales.",
+      intro:
+        "If your operation depends on manual work, disconnected systems or slow decisions, we can rethink the architecture with you.",
+      labels: {
+        phone: "Phone",
+        email: "Email",
+        address: "Operating base",
+      },
       phone: "+51 91 444 082",
       email: "hola@aiapaec.xyz",
-      address: "Jirón Pachacútec 1248, Lima 15072, Peru",
-      cta: "Contact us today",
+      address: "Jiron Pachacutec 1248, Lima 15072, Peru",
+      cta: "Request a conversation",
+      note: "We reply with technical focus and business context.",
+      form: {
+        eyebrow: "Initial brief",
+        title: "Share the context before we talk.",
+        description:
+          "Send us a short description of the problem, the operational friction or the outcome you want to unlock.",
+        fields: {
+          name: "Name",
+          email: "Email",
+          company: "Company",
+          summary: "Short description",
+        },
+        placeholders: {
+          name: "Your name",
+          email: "you@company.com",
+          company: "Company name",
+          summary: "What process is slowing you down today and what impact does it have?",
+        },
+        cta: "Send context",
+        submitting: "Sending",
+        helper: "We review every inquiry with technical rigor and business context.",
+        messages: {
+          success: "Thanks. We will review your case and reply soon.",
+          error: "We could not send the form right now.",
+        },
+      },
+      schedule: {
+        eyebrow: "15 minutes",
+        title: "Book a free exploratory call.",
+        description:
+          "If you would rather jump straight into a conversation, reserve a short call to review the problem and see whether it makes sense to work together.",
+        points: [
+          "Quick review of the bottleneck or critical process",
+          "Technical and business context in one conversation",
+          "Suggested next step, with no commitment",
+        ],
+        cta: "Book via Cal.com",
+        fallback: "Add NEXT_PUBLIC_CALCOM_URL to show the scheduling link here.",
+      },
     },
   },
 }

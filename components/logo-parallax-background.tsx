@@ -19,16 +19,16 @@ export function LogoParallaxBackground() {
   const [state, setState] = useState<LogoMotionState>({
     sectionProgress: 0,
     parallaxY: 0,
-    hue: 10,
-    saturation: 1.3,
-    brightness: 0.95,
+    hue: 20,
+    saturation: 1.15,
+    brightness: 0.7,
   })
 
   useEffect(() => {
     let rafId = 0
 
     const updateLogo = () => {
-      const sections = Array.from(document.querySelectorAll("main section"))
+      const sections = Array.from(document.querySelectorAll<HTMLElement>("main section"))
       if (sections.length === 0) return
 
       const sectionTops = sections.map((section) => section.offsetTop)
@@ -56,10 +56,10 @@ export function LogoParallaxBackground() {
 
       setState({
         sectionProgress,
-        parallaxY: sectionProgress * 200 - 100,
-        hue: 10 + sectionProgress * 220,
-        saturation: 1.3 + sectionProgress * 0.6,
-        brightness: 0.95 - sectionProgress * 0.15,
+        parallaxY: sectionProgress * 160 - 80,
+        hue: 18 + sectionProgress * 185,
+        saturation: 1.15 + sectionProgress * 0.3,
+        brightness: 0.7 - sectionProgress * 0.08,
       })
     }
 
@@ -90,11 +90,11 @@ export function LogoParallaxBackground() {
         priority
         className="absolute left-1/2 h-auto w-auto select-none"
         style={{
-          width: "120vw",
+          width: "105vw",
           top: "50%",
-          opacity: 0.16 - state.sectionProgress * 0.04,
+          opacity: 0.09 - state.sectionProgress * 0.02,
           transform: `translate(-50%, calc(-50% + ${state.parallaxY}px))`,
-          filter: `sepia(1) saturate(${state.saturation}) hue-rotate(${state.hue}deg) brightness(${state.brightness})`,
+          filter: `sepia(1) saturate(${state.saturation}) hue-rotate(${state.hue}deg) brightness(${state.brightness}) blur(0.3px)`,
           transition: "opacity 320ms ease-out, filter 320ms ease-out, transform 320ms ease-out",
         }}
       />

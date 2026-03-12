@@ -8,13 +8,13 @@ export function LanguageSwitcher() {
   const { language, setLanguage } = useLanguage()
 
   return (
-    <div className="fixed top-4 right-4 z-50">
-      <div className="flex gap-2 bg-white/90 backdrop-blur-sm rounded-lg p-2 shadow-lg">
+    <div className="fixed right-4 top-4 z-50">
+      <div className="flex items-center gap-1 rounded-full border border-white/10 bg-slate-950/70 p-1.5 shadow-[0_20px_50px_rgba(2,6,23,0.45)] backdrop-blur-md">
         <Button
           variant={language === "es" ? "default" : "ghost"}
           size="sm"
           onClick={() => setLanguage("es")}
-          className="text-xs"
+          className="rounded-full px-3 text-xs uppercase tracking-[0.16em]"
         >
           ES
         </Button>
@@ -22,7 +22,7 @@ export function LanguageSwitcher() {
           variant={language === "qu" ? "default" : "ghost"}
           size="sm"
           onClick={() => setLanguage("qu")}
-          className="text-xs"
+          className="rounded-full px-3 text-xs uppercase tracking-[0.16em]"
         >
           QU
         </Button>
@@ -30,11 +30,13 @@ export function LanguageSwitcher() {
           variant={language === "en" ? "default" : "ghost"}
           size="sm"
           onClick={() => setLanguage("en")}
-          className="text-xs"
+          className="rounded-full px-3 text-xs uppercase tracking-[0.16em]"
         >
           EN
         </Button>
-        <Languages className="w-4 h-4 text-gray-600 ml-1" />
+        <div className="ml-1 flex h-8 w-8 items-center justify-center rounded-full bg-white/5 text-slate-300">
+          <Languages className="h-4 w-4" />
+        </div>
       </div>
     </div>
   )

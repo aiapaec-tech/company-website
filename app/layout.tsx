@@ -1,23 +1,28 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Kufam, Unbounded } from "next/font/google"
+import { Inter, JetBrains_Mono, Sora } from "next/font/google"
 import "./globals.css"
 import { LanguageProvider } from "@/contexts/language-context"
 
-const kufam = Kufam({
+const sora = Sora({
   subsets: ["latin"],
-  variable: "--font-kufam",
+  variable: "--font-sora",
 })
 
-const unbounded = Unbounded({
+const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-unbounded",
+  variable: "--font-inter",
+})
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-mono",
 })
 
 export const metadata: Metadata = {
-  title: "aiapaec tech - Soluciones de Inteligencia Artificial",
-  description: "Transformamos el potencial de tu negocio a través de tecnología inteligente",
-  generator: "v0.dev",
+  title: "AIAPAEC | Arquitectura para la evolucion",
+  description:
+    "Partner tecnologico de evolucion. Diseñamos automatizacion avanzada y sistemas inteligentes a medida para operaciones reales.",
   manifest: "/manifest.webmanifest",
   icons: {
     icon: [
@@ -40,11 +45,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-    <head>
-      <meta name="google-adsense-account" content="ca-pub-1231955294397267"/>
-    </head>
-    <body className={`${kufam.variable} ${unbounded.variable}`}>
-    <LanguageProvider>{children}</LanguageProvider>
+      <head>
+        <meta name="google-adsense-account" content="ca-pub-1231955294397267" />
+      </head>
+      <body className={`${sora.variable} ${inter.variable} ${jetbrainsMono.variable}`}>
+        <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
   )

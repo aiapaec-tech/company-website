@@ -2,48 +2,75 @@
 
 import { useLanguage } from "@/contexts/language-context"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Brain, Zap } from "lucide-react"
+import { ArrowRight, Orbit, Sparkles, Workflow } from "lucide-react"
 
 export function Hero() {
   const { t } = useLanguage()
 
-  const scrollToContact = () => {
-    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })
+  const scrollToSection = (id: string) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" })
   }
 
   return (
-    <section className="relative min-h-screen snap-start flex items-center justify-center bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white overflow-hidden">
-      {/* Background Elements */}
-      <div className="absolute inset-0 opacity-20">
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent"></div>
-      </div>
+    <section className="section-shell relative flex min-h-screen snap-start items-center overflow-hidden pt-28 text-white">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(124,58,237,0.2),transparent_30%),linear-gradient(135deg,rgba(13,17,23,0.92),rgba(19,25,39,0.88)_45%,rgba(10,14,22,1))]" />
+      <div className="absolute left-[10%] top-24 h-40 w-40 rounded-full bg-purple-500/10 blur-3xl" />
+      <div className="absolute bottom-20 right-[12%] h-56 w-56 rounded-full bg-sky-500/10 blur-3xl" />
 
-      {/* Floating Elements */}
-      <div className="absolute top-20 left-10 animate-pulse">
-        <Brain className="w-8 h-8 text-purple-400 opacity-60" />
-      </div>
-      <div className="absolute bottom-20 right-10 animate-pulse delay-1000">
-        <Zap className="w-6 h-6 text-blue-400 opacity-60" />
-      </div>
-
-      <div className="container mx-auto px-4 text-center relative z-10">
-        <div className="max-w-4xl mx-auto">
-          <div className="mb-8">
-            <h1 className="unbounded-brand text-6xl md:text-8xl font-bold mb-4 bg-gradient-to-r from-white via-purple-200 to-blue-200 bg-clip-text text-transparent text-center">
-              aiapaec tech
+      <div className="container mx-auto px-4">
+        <div className="grid items-end gap-16 lg:grid-cols-[minmax(0,1.2fr)_minmax(280px,0.8fr)]">
+          <div className="relative z-10 max-w-4xl">
+            <p className="font-mono-accent mb-6 text-sm uppercase tracking-[0.28em] text-sky-200/80">
+              {t.hero.eyebrow}
+            </p>
+            <h1 className="font-display max-w-5xl text-5xl font-bold leading-[1.02] tracking-[-0.04em] text-white md:text-7xl xl:text-[5.4rem]">
+              AIAPAEC
             </h1>
+            <p className="font-display mt-5 max-w-4xl text-3xl font-semibold leading-tight text-slate-100 md:text-5xl md:leading-[1.05]">
+              {t.hero.title}
+            </p>
+            <p className="mt-7 max-w-3xl text-lg leading-8 text-slate-300 md:text-xl">{t.hero.subtitle}</p>
+            <p className="mt-5 max-w-2xl text-base leading-7 text-slate-400 md:text-lg">{t.hero.description}</p>
+
+            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+              <Button
+                onClick={() => scrollToSection("contact")}
+                size="lg"
+                className="h-12 rounded-full bg-gradient-to-r from-purple-600 via-blue-600 to-sky-500 px-7 text-sm font-semibold uppercase tracking-[0.18em] text-white shadow-[0_0_40px_rgba(37,99,235,0.3)] transition-transform duration-300 hover:scale-[1.02] hover:from-purple-500 hover:to-sky-400"
+              >
+                {t.hero.cta}
+                <ArrowRight className="h-4 w-4" />
+              </Button>
+              <Button
+                onClick={() => scrollToSection("services")}
+                size="lg"
+                variant="outline"
+                className="h-12 rounded-full border-white/15 bg-white/5 px-7 text-sm font-semibold uppercase tracking-[0.18em] text-slate-100 backdrop-blur hover:bg-white/10 hover:text-white"
+              >
+                {t.hero.secondaryCta}
+              </Button>
+            </div>
           </div>
 
-          <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed max-w-3xl mx-auto">{t.hero.subtitle}</p>
-
-          <Button
-            onClick={scrollToContact}
-            size="lg"
-            className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105"
-          >
-            {t.hero.cta}
-            <ArrowRight className="ml-2 w-5 h-5" />
-          </Button>
+          <div className="relative z-10 grid gap-4">
+            {[
+              { icon: Workflow, text: t.hero.highlights[0] },
+              { icon: Orbit, text: t.hero.highlights[1] },
+              { icon: Sparkles, text: t.hero.highlights[2] },
+            ].map(({ icon: Icon, text }) => (
+              <div
+                key={text}
+                className="rounded-[1.5rem] border border-white/10 bg-white/5 p-5 backdrop-blur-md shadow-[0_20px_60px_rgba(0,0,0,0.2)]"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-purple-500/30 to-sky-500/20 text-sky-100">
+                    <Icon className="h-5 w-5" />
+                  </div>
+                  <p className="text-sm font-medium uppercase tracking-[0.12em] text-slate-200">{text}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

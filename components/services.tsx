@@ -2,51 +2,46 @@
 
 import { useLanguage } from "@/contexts/language-context"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Brain, Globe, Smartphone, Settings, CheckCircle } from "lucide-react"
+import { Blocks, Bot, CheckCircle2, Network, Workflow } from "lucide-react"
 
 export function Services() {
   const { t } = useLanguage()
-
-  const icons = [Brain, Globe, Smartphone, Settings]
+  const icons = [Workflow, Bot, Network, Blocks]
 
   return (
-    <section className="min-h-screen snap-start flex items-center py-16 md:py-20 bg-gray-50">
+    <section id="services" className="section-shell flex min-h-screen snap-start items-center py-24 text-white">
       <div className="container mx-auto px-4">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">{t.services.title}</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">{t.services.subtitle}</p>
-          </div>
+        <div className="mx-auto max-w-7xl">
+          <p className="font-mono-accent text-center text-sm uppercase tracking-[0.28em] text-sky-200/80">
+            {t.services.eyebrow}
+          </p>
+          <h2 className="font-display mx-auto mt-5 max-w-5xl text-center text-4xl font-bold leading-tight tracking-[-0.04em] md:text-6xl">
+            {t.services.title}
+          </h2>
+          <p className="mx-auto mt-6 max-w-3xl text-center text-lg leading-8 text-slate-300">{t.services.subtitle}</p>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="mt-14 grid gap-6 md:grid-cols-2">
             {t.services.categories.map((category, index) => {
               const Icon = icons[index]
-              const gradientClasses = [
-                "bg-gradient-to-br from-purple-50 to-blue-50",
-                "bg-gradient-to-br from-blue-50 to-indigo-50",
-                "bg-gradient-to-br from-indigo-50 to-purple-50",
-                "bg-gradient-to-br from-green-50 to-blue-50",
-              ]
-              const iconColors = ["text-purple-600", "text-blue-600", "text-indigo-600", "text-green-600"]
 
               return (
                 <Card
-                  key={index}
-                  className={`shadow-xl hover:shadow-2xl transition-shadow duration-300 border-0 ${gradientClasses[index]}`}
+                  key={category.title}
+                  className="overflow-hidden border-white/10 bg-[linear-gradient(180deg,rgba(19,25,39,0.9),rgba(16,22,36,0.76))] shadow-[0_24px_80px_rgba(2,6,23,0.4)]"
                 >
-                  <CardHeader className="pb-4">
-                    <div className="flex items-center mb-4">
-                      <Icon className={`w-12 h-12 ${iconColors[index]} mr-4`} />
-                      <CardTitle className="text-xl text-gray-900">{category.title}</CardTitle>
+                  <CardHeader className="pb-5">
+                    <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-purple-500/25 to-sky-500/20 text-sky-100">
+                      <Icon className="h-6 w-6" />
                     </div>
-                    <p className="text-gray-700 text-base">{category.description}</p>
+                    <CardTitle className="font-display mt-6 text-2xl leading-tight text-white">{category.title}</CardTitle>
+                    <p className="pt-4 text-base leading-7 text-slate-300">{category.description}</p>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-3">
-                      {category.features.map((feature, featureIndex) => (
-                        <li key={featureIndex} className="flex items-start">
-                          <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
-                          <span className="text-gray-700 text-sm">{feature}</span>
+                      {category.features.map((feature) => (
+                        <li key={feature} className="flex items-start gap-3 text-sm leading-6 text-slate-200">
+                          <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-sky-300" />
+                          <span>{feature}</span>
                         </li>
                       ))}
                     </ul>
