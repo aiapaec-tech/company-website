@@ -14,13 +14,13 @@ export function Hero() {
   }
 
   return (
-    <section className="section-shell relative flex min-h-screen snap-start items-center overflow-hidden pt-28 text-white">
+    <section className="section-shell relative flex min-h-screen snap-start items-start overflow-hidden pt-24 text-white md:pt-28">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(124,58,237,0.2),transparent_30%),linear-gradient(135deg,rgba(13,17,23,0.92),rgba(19,25,39,0.88)_45%,rgba(10,14,22,1))]" />
       <div className="absolute left-[10%] top-24 h-40 w-40 rounded-full bg-purple-500/10 blur-3xl" />
       <div className="absolute bottom-20 right-[12%] h-56 w-56 rounded-full bg-sky-500/10 blur-3xl" />
 
-      <div className="container mx-auto px-4">
-        <div className="grid items-end gap-16 lg:grid-cols-[minmax(0,1.2fr)_minmax(280px,0.8fr)]">
+      <div className="container mx-auto px-4 pt-6 md:pt-10">
+        <div className="grid items-start gap-16 lg:grid-cols-[minmax(0,1.2fr)_minmax(280px,0.8fr)]">
           <div className="relative z-10 max-w-4xl">
             <p className="font-mono-accent mb-6 text-sm uppercase tracking-[0.28em] text-sky-200/80">
               {t.hero.eyebrow}
@@ -28,7 +28,7 @@ export function Hero() {
             <img
               src={primaryLogoUrl}
               alt="AIAPAEC"
-              className="h-auto w-[220px] max-w-full md:w-[300px]"
+              className="h-auto w-full max-w-[620px]"
             />
             <h1 className="font-display mt-8 max-w-4xl text-3xl font-semibold leading-tight text-slate-100 md:text-5xl md:leading-[1.05]">
               {t.hero.title}
