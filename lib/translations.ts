@@ -13,7 +13,7 @@ export const translations = {
         "Diseñamos automatización avanzada, inteligencia aplicada y arquitectura digital a medida para negocios que necesitan adaptarse con criterio.",
       description:
         "AIAPAEC replantea operaciones, simplifica flujos complejos y sustituye estructuras obsoletas por sistemas conectados al negocio real.",
-      cta: "Hablar con AIAPAEC",
+      cta: "Contacta con nosotros",
       secondaryCta: "Ver capacidades",
       highlights: [
         "Arquitectos de automatización avanzada",
@@ -202,7 +202,7 @@ export const translations = {
         "Automatizacion avanzada, inteligencia aplicada, chaymanta negocioyman hina arquitectura digitalta rurayku.",
       description:
         "AIAPAECqa operacionkunata musuqmanta yuyarin, sasachakuy flujokunata pisiyachin, machu estructurakunata allin sistemakunawan rantin.",
-      cta: "AIAPAECwan rimay",
+      cta: "Ñoqaykuwan rimanakuy",
       secondaryCta: "Atiyniykunata qhaway",
       highlights: [
         "Automatizacion avanzada arquitectokuna",
@@ -384,7 +384,7 @@ export const translations = {
         "We design advanced automation, applied intelligence and tailored digital architecture for businesses that need to adapt with discipline.",
       description:
         "AIAPAEC rethinks operations, simplifies complex flows and replaces obsolete structures with systems connected to real business conditions.",
-      cta: "Talk to AIAPAEC",
+      cta: "Contact us",
       secondaryCta: "See capabilities",
       highlights: [
         "Architects of advanced automation",
