@@ -4,6 +4,8 @@ import { useLanguage } from "@/contexts/language-context"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Orbit, Sparkles, Workflow } from "lucide-react"
 
+const primaryLogoUrl = "https://cdn.cloud.aiapaec.xyz/aiapaec/horizontal-light.png"
+
 export function Hero() {
   const { t } = useLanguage()
 
@@ -23,12 +25,14 @@ export function Hero() {
             <p className="font-mono-accent mb-6 text-sm uppercase tracking-[0.28em] text-sky-200/80">
               {t.hero.eyebrow}
             </p>
-            <h1 className="font-display max-w-5xl text-5xl font-bold leading-[1.02] tracking-[-0.04em] text-white md:text-7xl xl:text-[5.4rem]">
-              AIAPAEC
-            </h1>
-            <p className="font-display mt-5 max-w-4xl text-3xl font-semibold leading-tight text-slate-100 md:text-5xl md:leading-[1.05]">
+            <img
+              src={primaryLogoUrl}
+              alt="AIAPAEC"
+              className="h-auto w-[220px] max-w-full md:w-[300px]"
+            />
+            <h1 className="font-display mt-8 max-w-4xl text-3xl font-semibold leading-tight text-slate-100 md:text-5xl md:leading-[1.05]">
               {t.hero.title}
-            </p>
+            </h1>
             <p className="mt-7 max-w-3xl text-lg leading-8 text-slate-300 md:text-xl">{t.hero.subtitle}</p>
             <p className="mt-5 max-w-2xl text-base leading-7 text-slate-400 md:text-lg">{t.hero.description}</p>
 

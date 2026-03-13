@@ -7,12 +7,12 @@ export const translations = {
       contact: "Contacto",
     },
     hero: {
-      eyebrow: "Partner tecnológico de evolución",
-      title: "Tecnología que transforma procesos en sistemas capaces de evolucionar.",
+      eyebrow: "Socio tecnológico para la evolución de tu negocio",
+      title: "Tecnología que transforma.",
       subtitle:
-        "Diseñamos automatización avanzada, inteligencia aplicada y arquitectura digital a medida para negocios que necesitan adaptarse con criterio.",
+        "Diseñamos sistemas inteligentes para un mundo en constante evolución.",
       description:
-        "AIAPAEC replantea operaciones, simplifica flujos complejos y sustituye estructuras obsoletas por sistemas conectados al negocio real.",
+        "AIAPAEC diseña sistemas inteligentes a medida para negocios y organizaciones que necesitan simplificar su operación, automatizar procesos y adaptarse mejor a un entorno en constante evolución.",
       cta: "Contacta con nosotros",
       secondaryCta: "Ver capacidades",
       highlights: [
@@ -23,11 +23,11 @@ export const translations = {
     },
     about: {
       eyebrow: "Arquitectura para la evolución",
-      title: "No vendemos tecnología como adorno. Construimos ventaja operativa.",
+      title: "No vendemos consultoría ni código. Ofrecemos capacidad de adaptación.",
       description:
-        "AIAPAEC actúa como partner tecnológico de evolución para empresas que necesitan rediseñar procesos, automatizar fricciones y ganar capacidad de adaptación.",
+        "Diseñamos sistemas inteligentes a medida para simplificar procesos, automatizar operaciones y fortalecer la capacidad de adaptación.",
       mission:
-        "La inteligencia artificial se integra como herramienta práctica: simplifica lo complejo, automatiza lo repetitivo y libera tiempo para decisiones con más impacto.",
+        "La inteligencia artificial se integra como herramienta práctica para simplificar lo complejo, automatizar lo repetitivo y liberar el talento humano.",
       cards: [
         {
           title: "Diagnóstico operativo",
@@ -196,12 +196,12 @@ export const translations = {
       contact: "Rimanakuy",
     },
     hero: {
-      eyebrow: "Tecnologiawan wiñaypaq yanapaq masi",
-      title: "Tecnologiawan procesokunata tikrayku wiñay atiyniyuq sistemakunaman.",
+      eyebrow: "Negocioykiq wiñayninpaq socio tecnologico",
+      title: "Tecnologia transformaq.",
       subtitle:
-        "Automatizacion avanzada, inteligencia aplicada, chaymanta negocioyman hina arquitectura digitalta rurayku.",
+        "Wiñaq pachapaq yachayniyuq sistemakunata diseñayku.",
       description:
-        "AIAPAECqa operacionkunata musuqmanta yuyarin, sasachakuy flujokunata pisiyachin, machu estructurakunata allin sistemakunawan rantin.",
+        "AIAPAECqa negocioskunapaq organizacioneskunapaqpas sapanchasqa yachayniyuq sistemakunata diseñan, operacionninta pisiyachinapaq, procesokunata automatizanapaq, aswan allin adaptakunapaq.",
       cta: "Ñoqaykuwan rimanakuy",
       secondaryCta: "Atiyniykunata qhaway",
       highlights: [
@@ -212,11 +212,11 @@ export const translations = {
     },
     about: {
       eyebrow: "Wiñaypaq arquitectura",
-      title: "Mana adornorayku tecnologiatamachu qokuyku. Operacionpaq allin atiyta rurayku.",
+      title: "Mana consultoriatachu nitaq codigollatachu qokuyku. Adaptakuy atiytam qokuyku.",
       description:
-        "AIAPAECqa partner tecnologico de evolucion hina llamkan empresakunawan, procesokunata musuqmanta allichanapaq, friccionta automatizanapaq, adaptacionta kallpachaypaq.",
+        "Sapanchasqa yachayniyuq sistemakunata diseñayku procesokunata pisiyachinapaq, operacionkunata automatizanapaq, adaptakuy atiyta kallpachaypaq.",
       mission:
-        "Inteligencia artificialqa kaypi yanapakuy hina churakun: sasata pisiyachin, kutikuy llamkanakunata automatizan, aswan allin yuyayman pacha qowan.",
+        "Inteligencia artificialqa yanapakuy hina churakun sasata pisiyachinapaq, kutikuy llamkanakunata automatizanapaq, runapa talentonta kacharichinapaq.",
       cards: [
         {
           title: "Operacionta qhawariy",
@@ -378,12 +378,12 @@ export const translations = {
       contact: "Contact",
     },
     hero: {
-      eyebrow: "Technology partner for evolution",
-      title: "Technology that turns complex operations into systems that can evolve.",
+      eyebrow: "Technology partner for your business evolution",
+      title: "Technology that transforms.",
       subtitle:
-        "We design advanced automation, applied intelligence and tailored digital architecture for businesses that need to adapt with discipline.",
+        "We design intelligent systems for a world in constant evolution.",
       description:
-        "AIAPAEC rethinks operations, simplifies complex flows and replaces obsolete structures with systems connected to real business conditions.",
+        "AIAPAEC designs tailored intelligent systems for businesses and organizations that need to simplify operations, automate processes and adapt better to a constantly evolving environment.",
       cta: "Contact us",
       secondaryCta: "See capabilities",
       highlights: [
@@ -394,11 +394,11 @@ export const translations = {
     },
     about: {
       eyebrow: "Architecture for evolution",
-      title: "We do not sell technology as decoration. We build operational leverage.",
+      title: "We do not sell consulting or code. We offer adaptive capacity.",
       description:
-        "AIAPAEC works as a technology partner for evolution for companies that need to redesign processes, automate friction and gain adaptive capacity.",
+        "We design tailored intelligent systems to simplify processes, automate operations and strengthen adaptive capacity.",
       mission:
-        "Artificial intelligence is introduced as a practical tool: it simplifies complexity, automates repetitive work and frees time for higher value decisions.",
+        "Artificial intelligence is introduced as a practical tool to simplify complexity, automate repetitive work and free human talent.",
       cards: [
         {
           title: "Operational diagnosis",

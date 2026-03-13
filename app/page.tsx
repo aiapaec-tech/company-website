@@ -10,14 +10,14 @@ import { LogoParallaxBackground } from "@/components/logo-parallax-background"
 export const metadata: Metadata = {
   title: "AIAPAEC | Tecnología que transforma",
   description:
-    "AIAPAEC diseña automatización avanzada, sistemas inteligentes a medida y arquitectura digital para empresas que necesitan evolución operativa.",
+    "AIAPAEC diseña sistemas inteligentes a medida para negocios y organizaciones que necesitan simplificar su operación, automatizar procesos y adaptarse mejor a un entorno en constante evolución.",
   keywords:
-    "automatizacion avanzada, sistemas inteligentes, arquitectura digital, inteligencia aplicada, Lima, Peru, evolucion operativa",
+    "tecnologia que transforma, sistemas inteligentes, automatizacion avanzada, inteligencia aplicada, Lima, Peru, evolucion operativa",
   authors: [{ name: "AIAPAEC" }],
   openGraph: {
-    title: "AIAPAEC | Arquitectura para la evolución",
+    title: "AIAPAEC | Tecnología que transforma",
     description:
-      "Partner tecnologico de evolucion para empresas que necesitan simplificar procesos y construir sistemas a medida.",
+      "Diseñamos sistemas inteligentes para un mundo en constante evolución.",
     url: "https://www.aiapaec.xyz",
     siteName: "AIAPAEC",
     locale: "es_PE",
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AIAPAEC | Arquitectura para la evolución",
-    description: "Tecnología que transforma procesos en sistemas capaces de evolucionar.",
+    title: "AIAPAEC | Tecnología que transforma",
+    description: "Diseñamos sistemas inteligentes para un mundo en constante evolución.",
   },
   robots: {
     index: true,

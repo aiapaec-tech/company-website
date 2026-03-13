@@ -20,9 +20,9 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "AIAPAEC | Arquitectura para la evolucion",
+  title: "AIAPAEC | Tecnología que transforma",
   description:
-    "Partner tecnologico de evolucion. Diseñamos automatizacion avanzada y sistemas inteligentes a medida para operaciones reales.",
+    "Diseñamos sistemas inteligentes para un mundo en constante evolución.",
   manifest: "/manifest.webmanifest",
   icons: {
     icon: [
