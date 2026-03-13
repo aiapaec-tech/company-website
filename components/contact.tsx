@@ -240,13 +240,13 @@ export function Contact() {
         </div>
 
         <div className="mx-auto mt-20 flex max-w-6xl flex-col gap-3 border-t border-white/10 pt-8 text-sm text-slate-400 md:flex-row md:items-center md:justify-between">
-          <p>© 2026 AIAPAEC. Arquitectura para la evolucion.</p>
+          <p>© 2026 AIAPAEC. Arquitectura para la evolución.</p>
           <div className="flex flex-wrap gap-4">
             <Link href="/privacidad" className="transition-colors hover:text-white">
-              Politica de Privacidad
+              Política de Privacidad
             </Link>
             <Link href="/eliminar-datos" className="transition-colors hover:text-white">
-              Eliminacion de cuenta y datos
+              Eliminación de cuenta y datos
             </Link>
           </div>
         </div>
