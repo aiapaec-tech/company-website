@@ -4,7 +4,7 @@ import { useLanguage } from "@/contexts/language-context"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Orbit, Sparkles, Workflow } from "lucide-react"
 
-const primaryLogoUrl = "https://cdn.cloud.aiapaec.xyz/aiapaec/horizontal-light.png"
+const primaryLogoUrl = "https://evil-bucket.nyc3.digitaloceanspaces.com/aiapaec/horizontal-light.png"
 
 export function Hero() {
   const { t } = useLanguage()
